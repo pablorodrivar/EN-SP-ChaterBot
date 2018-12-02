@@ -11,6 +11,7 @@ public class Chat implements Parcelable {
     private String date, chatlog, fireBaseKey;
 
     public Chat() {
+        chatlog = "";
     }
 
     public Chat(String date, String chatlog) {
